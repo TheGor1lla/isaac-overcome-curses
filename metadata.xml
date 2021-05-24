@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <name>Overcome Curses</name>
+    <directory>overcomecurses</directory>
+    <id>2496715694</id>
+    <description>Simple mod that deactives curses (minus Labyrinth, because you know...) once the floor boss is killed.</description>
+    <version>1.1</version>
+    <visibility>Public</visibility>
+    <tag id="Lua"/>
+    <tag id="Tweaks"/>
+</metadata>
