@@ -3,6 +3,7 @@ local OvercomeCurses = RegisterMod("OvercomeCurses", 1)
 local game = Game()
 local player = Isaac.GetPlayer(0)
 local bossKilled = false
+local inBossFight = false
 
 local function onBossKill(_, player)
 
@@ -11,7 +12,12 @@ local function onBossKill(_, player)
 	local curse = level.GetCurses(level)
 
 	if room:GetType() == RoomType.ROOM_BOSS and bossKilled == false then
-		if room:GetAliveBossesCount() == 0 then
+
+		if room:GetAliveBossesCount() ~=0 then
+            inBossFight = true
+        end
+
+		if room:GetAliveEnemiesCount() == 0 and inBossFight == true then
 --			Isaac.RenderText("You overcame the " .. level.GetCurseName(level), 150, 50, 1, 1, 1, 255)
 			level:RemoveCurses(curse)
 
@@ -26,6 +32,7 @@ OvercomeCurses:AddCallback(ModCallbacks.MC_POST_PEFFECT_UPDATE, onBossKill)
 local function resetBossStatus()
 
 	bossKilled = false
+	inBossFight = false
 end
 
 OvercomeCurses:AddCallback(ModCallbacks.MC_POST_GAME_END, resetBossStatus)

@@ -6,3 +6,4 @@ This is a mod for [The Binding of Isaac: Repetance](https://store.steampowered.c
 ## ToDo:
 
 * Display Banner in the ingame style after curse has been overcome.
+* Integrate ModUI

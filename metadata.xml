@@ -4,7 +4,7 @@
     <directory>overcomecurses</directory>
     <id>2496715694</id>
     <description>Simple mod that deactives curses (minus Labyrinth, because you know...) once the floor boss is killed.</description>
-    <version>1.1</version>
+    <version>1.2</version>
     <visibility>Public</visibility>
     <tag id="Lua"/>
     <tag id="Tweaks"/>
