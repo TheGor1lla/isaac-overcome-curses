@@ -3,9 +3,25 @@
     <name>Overcome Curses</name>
     <directory>overcomecurses</directory>
     <id>2496715694</id>
-    <description>Simple mod that deactives curses (minus Labyrinth, because you know...) once the floor boss is killed.</description>
-    <version>1.2</version>
+    <description>[h1][b]Overcome Curses[/b][/h1]
+        Simple mod that deactives curses (minus Labyrinth, because you know...) once the floor boss is killed.
+
+        [h2][b]Now configurable![/b][/h2]
+
+        Overcome Curses now supports [url=steamcommunity.com/sharedfiles/filedetails/?id=2681875787] !! Mod Config Menu Pure [/url]
+
+        If you are a fan of using the debug menu, you can also configure the mod that way, simply check it out by typing:
+
+        [code]overcome help[/code]
+
+        [h2][b]If you have Feedback or feature requests, feel free to contact me![/b][/h2]
+    </description>
+    <version>1.6</version>
     <visibility>Public</visibility>
     <tag id="Lua"/>
+    <tag id="Floors"/>
+    <tag id="Enemies"/>
+    <tag id="Bosses"/>
     <tag id="Tweaks"/>
+    <tag id="Removals"/>
 </metadata>
